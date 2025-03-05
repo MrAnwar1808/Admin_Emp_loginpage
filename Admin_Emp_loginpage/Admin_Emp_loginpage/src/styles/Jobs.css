@@ -1,0 +1,11 @@
+.job-title {
+  text-align: center;
+  margin: 20px 0;
+}
+.job-card {
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+.job-card:hover {
+  transform: scale(1.05);
+}
