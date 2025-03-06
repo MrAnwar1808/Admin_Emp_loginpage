@@ -166,7 +166,7 @@ const ScheduleInterview = () => {
 
       {scheduledInterviews.length > 0 && (
         <Box sx={{ marginTop: 5 }}>
-          <Typography variant="h6" gutterBottom>
+          <Typography variant="h6">
             Scheduled Interviews
           </Typography>
 
@@ -238,3 +238,10 @@ const ScheduleInterview = () => {
 };
 
 export default ScheduleInterview;
+
+
+
+
+// wordBreak: "break-word" ensures that long URLs break properly instead of overflowing.
+// target="_blank" ensures the link opens in a new tab.
+// rel="noopener noreferrer" is a security measure to prevent potential security risks when opening a new tab.
