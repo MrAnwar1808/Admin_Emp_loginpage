@@ -33,7 +33,7 @@ const AdminDashboard = () => {
       <Grid item xs={2}>
         <Sidebar /> 
       </Grid>
-      <Grid item xs={10}>
+      <Grid item xs={10} style={{ padding: "0px", marginTop: "00px", marginBottom: "20px" ,marginLeft:"0px"}}>
         <Container maxWidth="lg" className="dashboard">
           <Typography variant="h4" className="dashboard-title" align="center" gutterBottom>
             Admin Dashboard
@@ -90,9 +90,7 @@ const AdminDashboard = () => {
                 <Button variant="contained" color="secondary" fullWidth onClick={() => navigate("/admin/view-projects")} style={{ marginTop: "10px" }}>
                   View Projects
                 </Button>
-                <Button variant="contained" color="success" fullWidth onClick={() => navigate("/admin/project-tracker")} style={{ marginTop: "10px" }}>
-                  Track Projects
-                </Button>
+                
                 <Button variant="contained" color="info" fullWidth onClick={() => navigate("/admin/assign-project")} style={{ marginTop: "10px" }}>
                   Assign Project
                 </Button>

@@ -12,8 +12,11 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar">
-      <div className="sidebar-title">Dashboard</div>
       <List>
+        <ListItem button className="sidebar-item" onClick={() => handleNavigation('/admin/dashboard')}>
+          <ListItemText primary="Dashboard" />
+        </ListItem>
+        <Divider />
         <ListItem button className="sidebar-item" onClick={() => handleNavigation('/admin/create-employee')}>
           <ListItemText primary="Create Employee" />
         </ListItem>
