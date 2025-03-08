@@ -6,7 +6,7 @@ import "../../styles/EmployeeDashboard.css";
 const Sidebar1 = () => {
   return (
     <div className="sidebar">
-      <h3>Employee Dashboard</h3>
+      <h5>Employee Dashboard</h5>
       <ul>
         <li>
           <NavLink to="/employee/profile" activeClassName="active">

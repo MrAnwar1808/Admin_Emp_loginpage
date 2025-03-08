@@ -1,4 +1,4 @@
-/* Full-Page Background */
+
 .login-container {
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     background: linear-gradient(to right, #1e3c72, #2a5298);
   }
   
-  /* Main Paper Container */
+
   .login-paper {
     width: 100%;
     max-width: 1200px;
@@ -16,7 +16,7 @@
     display: flex;
   }
   
-  /* Left Side Image */
+
   .image-container {
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@
     transform: scale(1.05);
   }
   
-  /* Right Side Form */
+ 
   .form-container {
     display: flex;
     justify-content: center;
@@ -82,7 +82,7 @@
     background: #2a5298;
   }
   
-  /* Forgot Password */
+
   .forgot-password {
     margin-top: 15px;
     font-size: 14px;

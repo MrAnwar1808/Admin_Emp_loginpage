@@ -307,18 +307,18 @@
     }
 }
 .sidebar {
-    position: fixed; /* Fixed position */
-    top: 64px; /* Adjust this based on the height of your AppBar */
-    left: 0; /* Align to the left */
-    width: 240px; /* Width of the sidebar */
-    height: calc(100% - 64px); /* Full height minus AppBar height */
+    position: fixed; 
+    top: 64px; 
+    left: 0; 
+    width: 240px; 
+    height: calc(100% - 64px); 
     background: linear-gradient(to right, #ce5a77, #f5e342) !important;
-    overflow-y: auto; /* Enable scrolling for long lists */
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
-    z-index: 1000; /* Ensure it stays above other elements */
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
   }
   
   .sidebar-item {
-    padding: 10px 20px; /* Padding for items */
+    padding: 10px 20px; 
   }
   

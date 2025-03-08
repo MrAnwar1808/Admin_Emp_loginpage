@@ -33,7 +33,7 @@ const AdminDashboard = () => {
       <Grid item xs={2}>
         <Sidebar /> 
       </Grid>
-      <Grid item xs={10} style={{ padding: "0px", marginTop: "00px", marginBottom: "20px" ,marginLeft:"0px"}}>
+      <Grid item xs={10} style={{ padding: "0px", marginTop: "80px", marginBottom: "20px" ,marginLeft:"0px"}}>
         <Container maxWidth="lg" className="dashboard">
           <Typography variant="h4" className="dashboard-title" align="center" gutterBottom>
             Admin Dashboard

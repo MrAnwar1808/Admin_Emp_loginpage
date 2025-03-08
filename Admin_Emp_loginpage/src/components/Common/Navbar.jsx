@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AppBar, Toolbar, Typography, Button, Menu, MenuItem } from "@mui/material";
 import { useNavigate } from "react-router-dom"; 
-import "./Navbar.css"; // Import the CSS file
+import "./Navbar.css"; 
 
 const Navbar = () => {
   const [adminAnchor, setAdminAnchor] = useState(null);
@@ -9,7 +9,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <AppBar position="fixed" className="navbar"> {/* Apply the CSS class here */}
+    <AppBar position="fixed" className="navbar" > 
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1, cursor: "pointer" }} onClick={() => navigate("/")}>
           Job Management System
